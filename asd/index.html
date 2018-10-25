@@ -1,0 +1,186 @@
+<!DOCTYPE html> 
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+</head>
+<body>
+<div id="wrapper1">
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo"> <span class="icon icon-cogs"></span>
+				<h1><a href="#">Benahi</a></h1>
+				<span>semua jadi lebih mudah</span> </div>
+			<div id="menu">
+				<ul>
+					<li class="current_page_item"><a href="indexb.html" accesskey="1" title="">Homepage</a></li>
+					<li><a href="indexa.html" accesskey="2" title="">Tips & Trik</a></li>
+					<li><a href="index.html" accesskey="3" title="">Pesan</a></li>
+					<li><a href="indexc.html" accesskey="5" title="">About Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="wrapper2" style="font-family: harrington; color: white;">
+		<div id="welcome" class="container">
+			<div class="title">
+				<h2>Mohon Isi Data Anda</h2>
+			</div>
+
+			<tr>
+    <td style="color: white;"> <a style="color: white;">Nama</a></td>
+    <td>:</td>
+    <td><input type="text"></td>
+</tr>
+<br>
+<br>
+<tr>
+    <td><a style="color: white;">Jasa</a></td>
+    <td>:</td>
+    <td><select>
+      <option>-- Pilih Jasa Yang Dibutuhkan--</option>
+      <option>Peralatan</option>
+      <option>Pengecatan</option>
+      <option>Kendaraan</option>
+      <option>Perbaikan Rumah</option>
+    
+      
+      </select></td>
+</tr>
+<br><br>
+<tr>
+    <td><a style="color: white;">No Hp</a></td>
+    <td>:</td>
+    <td><input type="number"></td>
+</tr>
+<br><br>
+<tr>
+    <td ><a style="color: white;">Alamat</a></td>
+    <td>:</td>
+    <td><textarea cols="22" rows="3" ></textarea></td>
+</tr>
+<br><br>
+
+<tr>
+    <td > <a style="color: white;">E-mail</a></td>
+    <td>:</td>
+    <td><input type="email"></td>
+</tr>
+<br><br>
+<tr>
+    <td><a style="color: white;">Payment</a></td>
+    <td>:</td>
+    <td><select>
+      <option>-- Pilih Metode Pembayaran --</option>
+      <option>On The Spot</option>
+      <option>Transfer</option>
+     
+      </select></td>
+</tr>
+<br><br>
+<tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+
+		
+ 
+    <input type="reset" name="reset" value="Batal"/></td>
+    
+</tr>
+
+		<button onclick="konfirmasiDulu()">Confirm</button>
+		<p id="hasil"></p>
+		
+		<script>
+			function konfirmasiDulu(){
+				var konfirmasi = confirm("Apakah Data Yang Anda Isi Sudah Benar?");
+				var text = "";
+				
+				if(konfirmasi === true) {
+					text = "Pemesanan Sukses" ;
+				}else{
+					text = "Pemesanan Dibatalkan";
+
+				}
+				
+				document.getElementById("hasil").innerHTML = text;
+			}
+		</script>
+
+					
+		</div>
+		</div>
+	</div>
+	<div id="wrapper3">
+		<div id="portfolio" class="container">
+			<div class="title">
+				<h2 style="font-family: Harrington;  color: #6f3b8c;">Cara Pemesanan</h2>
+
+			</div>
+			
+			<!--<div class="title">
+				<h2>Layanan kami</h2>
+				</div>
+			<div class="column1">
+				<div class="box">
+					<span class="icon icon-wrench"></span>
+					<h3>Perbaikan peralatan</h3>
+					<p>Serivice segala kerusakan peralatan rumah anda.</p>
+					<a href="#" class="button button-small">Contact now</a> </div>
+			</div>
+			<div class="column2">
+				<div class="box">
+					<span class="icon icon-home"></span>
+					<h3>Pengecatan rumah</h3>
+					<p>Service berbagai macam cat untuk rumah anda.</p>
+					<a href="#" class="button button-small">Contact now</a> </div>
+			</div>
+			<div class="column3">
+				<div class="box">
+					<span class="icon icon-bathroom"></span>
+					<h3>Perbaikan kamar mandi</h3>
+					<p>Service untuk memperbaiki kamar mandi anda.</p>
+					<a href="#" class="button button-small">Contact now</a> </div>
+			</div>
+			<div class="column4">
+				<div class="box">
+					<span class="icon icon-lock"></span>
+					<h3>Perbaikan pintu</h3>
+					<p>Service untuk memperbaiki kerusakan pintu anda.</p>
+					<a href="#" class="button button-small">Contact now</a> </div>-->
+
+					<a target="_blank" href="2.png">
+
+							<img src="2.png" alt="Bodo" width="200px" height="500px" style="padding-left: 500px;"></a>
+							
+
+			</div>
+		</div>
+	</div>
+</div>
+<div id="footer" class="container" >
+	<div class="title" style="font-family: Harringtion;">
+		<h2>Contact Us</h2>
+		<br>
+		<span class="byline">Telp: 0821-6321-5030</span> 
+		<br>
+		<span class="byline">Facebook: Benahi </span> </div>
+	<ul class="contact">
+		<li><a href="https://www.whatsapp.com/" class="icon icon-phone"><span></span></a></li>
+		<li><a href="https://www.facebook.com/" class="icon icon-facebook"><span></span></a></li>
+	
+	</ul>
+</div>
+<div id="copyright" class="container">
+	<p>&copy; Benahi. All rights reserved. </p>
+</div>
+</body>
+</html>
